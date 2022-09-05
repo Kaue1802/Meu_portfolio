@@ -70,7 +70,12 @@ section{
 }
 
 #Sm {
+    width: auto;
+}
+
+#Sm div {
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+    padding-bottom: 10px;
 }
 
 #Sm h1 {
