@@ -64,7 +64,7 @@ main {
 }
 /* Alinhamento das sessões Centralizada */
 section{
-    display: flex;
+    display: grid;
     justify-content: center;
     text-align: center;
     margin-bottom: 10px;
@@ -92,12 +92,34 @@ section{
 #Sm p {
     font-weight: 600;
 }
-#Nsb h1{
+#Nsb {
+    width: auto;
+}
+#Nsb h1 {
     border: #F72119;
-        border-radius: 1%;
-        border-style: solid;
-        border-width: 0px 0px 3px 0px;
-        color: white;
-        width: fit-content;
-        margin: auto;
+    border-radius: 1%;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+}
+
+#NsbQuad {
+    width: auto;
+    display: flex;
+        flex-wrap: wrap;
+}
+
+
+.Skills {
+    width: 450px;
+    height: 150px;
+    background:#a6a6a6c7;
+    margin: 1%;
+    text-align: center;
+}
+
+.Skills p {
+    padding: 5%;
 }
