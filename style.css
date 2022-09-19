@@ -110,16 +110,17 @@ section{
     display: flex;
         flex-wrap: wrap;
 }
-
+#NsbQuad img{
+    width: 70px;
+}
 
 .Skills {
     width: 450px;
     height: 150px;
-    background:#a6a6a6c7;
     margin: 1%;
     text-align: center;
-}
-
-.Skills p {
-    padding: 5%;
+    margin-bottom: 10px;
+        padding: 50px;
+        background-color: rgba(250, 250, 250, 0.1);
+        transition: all 0.5s;
 }
