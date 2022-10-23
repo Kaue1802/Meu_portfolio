@@ -5,14 +5,20 @@
     color:white;
 }
 #Menu {
-        padding-left: 5%;
+        margin: 0;
+            padding: 0;
+            width: 400px;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
 }
 /* Menu */
 ul{
     list-style-type: none;
         margin: 0;
         padding: 0;
-        width: 25.5%;
+        width: 400px;
         height: 100%;
         position: fixed;
         background-color: #a6a6a6c7;
@@ -45,6 +51,7 @@ ul img{
         margin-right: auto;
         width: 45%;
 }
+
 /* Conteúdo Principal (Main) */
 main {
     background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/12/33/EQqrkH.jpg);
@@ -90,7 +97,9 @@ section{
 
 #Sm p {
     font-weight: 600;
-    width: 20cm;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #Nsb {
     width: auto;
